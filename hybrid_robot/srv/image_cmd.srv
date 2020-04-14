@@ -1,0 +1,5 @@
+bool cmd
+string  path
+string num_name
+---
+int32 result

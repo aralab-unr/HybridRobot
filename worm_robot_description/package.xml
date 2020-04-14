@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>worm_robot_description</name>
+  <version>2.0.1</version>
+  <description>
+    OpenManipulator 3D model description for visualization and simulation 
+  </description>
+  <license>Apache 2.0</license>
+  <author email="bui.hoangdungtn@gmail.com">Hoang-Dung BUI</author>
+  <maintainer email="bui.hoangdungtn@gmail.com">Hoang-Dung BUI</maintainer>
+  <url type="repository">https://github.com/buivn/worm_robot</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>joint_state_publisher</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>urdf</depend>
+</package>

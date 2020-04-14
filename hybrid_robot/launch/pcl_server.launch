@@ -1,0 +1,26 @@
+<launch>
+  <arg name="robotFootWidth"      default="0.28"/>
+  <arg name="robotFootLength"     default="0.24"/>
+  <arg name="slicingFactor"       default="0.02"/>
+  <arg name="showBoundary"        default="true"/>
+  <arg name="showSelectRectange"  default="true"/>
+  <arg name="tolerance"  		  default="0.05"/>
+  <arg name="showPose"            default="true"/>
+  <arg name="fileAddress"         default="/home/buivn/bui_ws/src/pahap/src/check1.pcd"/>
+  <arg name="pclTopic"		      default="/camera_remote/depth_registered/points"/>
+
+
+
+  <node name="hybridRobot/pcl_server" pkg="hybridRobot" type="pcl_server">
+  	<param name="robotFootWidth"   		value="$(arg robotFootWidth)"/>
+  	<param name="robotFootLength"   	value="$(arg robotFootLength)"/>
+    <param name="slicingFactor"   		value="$(arg slicingFactor)"/>
+    <param name="showBoundary"    		value="$(arg showBoundary)"/>
+    <param name="showSelectRectange"   	value="$(arg showSelectRectange)"/>
+    <param name="tolerance"   			value="$(arg tolerance)"/>
+    <param name="showPose"   			value="$(arg showPose)"/>
+    <param name="fileAddress" 			value="$(arg fileAddress)"/>
+    <param name="pclTopic" 				value="$(arg pclTopic)"/>
+  </node>
+
+</launch>

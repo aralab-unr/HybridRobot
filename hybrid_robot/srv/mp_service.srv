@@ -1,0 +1,4 @@
+bool cmd
+geometry_msgs/Pose targetPose
+---
+bool result

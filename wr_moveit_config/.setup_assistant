@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: worm_robot_description
+    relative_path: urdf/worm_robot_detail.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/wormRobot.srdf
+  CONFIG:
+    author_name: Dzung Bui
+    author_email: bui.hoangdungtn@gmail.com
+    generated_timestamp: 1582936930

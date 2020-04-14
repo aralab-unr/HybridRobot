@@ -1,0 +1,14 @@
+<launch>
+  <arg name="convPose_state"      default="true"/>
+  <arg name="move_1leg"           default="false"/>
+  <arg name="move_2leg"           default="false"/>
+
+
+
+  <!-- <node name="$(arg namespace)" pkg="climb3" type="clt"> -->
+  <node name="Robot_Control" pkg="climb3" type="clt">
+    <param name="convPose_state"  value="$(arg convPose_state)"/>
+    <param name="move_1leg"       value="$(arg move_1leg)"/>
+    <param name="move_2leg"       value="$(arg move_2leg)"/>
+  </node>
+</launch>

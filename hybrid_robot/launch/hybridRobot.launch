@@ -1,0 +1,12 @@
+<launch>
+  <arg name="requestTopic"       default="true"/>
+  <arg name="addressToSave"       default="/home/buivn/bui_ws/src/pahap/pointcloud/"/>
+
+
+
+  <node name="hybridRobot/main" pkg="hybridRobot" type="hybridRobot">
+    <param name="requestTopic"   value="$(arg requestTopic)"/>
+    <param name="addressToSave"  value="$(arg addressToSave)"/>
+  </node>
+
+</launch>

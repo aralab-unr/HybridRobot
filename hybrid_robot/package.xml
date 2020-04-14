@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package>
+  <name>hybrid_robot</name>
+  <version>0.0.1</version>
+  <description>
+    This package handles the data from point cloud data to check plane availability, area, height and provide the plane pose
+  </description>
+  <maintainer email="bui.hoangdungtn@gmail.com">Bui HD</maintainer>
+  <license>BSD</license>
+
+
+  <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>rostest</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>eigen_conversions</build_depend>
+  <build_depend>geometry_msgs</build_depend> 
+  <build_depend>libpcl-all-dev</build_depend>
+  <!-- <build_depend>libeigen3</build_depend> -->
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>  
+  <build_depend>boost</build_depend>
+  <!-- <build_depend>image_transport</build_depend> -->
+  <!-- <build_depend>cv_bridge</build_depend> -->
+
+  <!-- Use run_depend for packages you need at runtime: -->
+  <run_depend>message_runtime</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>cmake_modules</run_depend>
+  <run_depend>eigen_conversions</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>libpcl-all</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>moveit_core</run_depend>
+  <run_depend>moveit_ros_planning</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>  
+  <run_depend>boost</run_depend>
+  <!-- <run_depend>image_transport</run_depend> -->
+  <!-- <run_depend>cv_bridge</run_depend> -->
+  
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
