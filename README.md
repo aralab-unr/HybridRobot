@@ -18,5 +18,6 @@ target="_blank"><img src="/images/HybridRobot.gif" width="450"
 alt="Hybrid Steel Bridge Inspection Robot" width="450"/></a>
 </p>
 
-
+# Video
+https://www.youtube.com/watch?v=SHk5IIOBRdA&ab_channel=AdvancedRoboticsandAutomationLab
 
