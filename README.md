@@ -25,5 +25,7 @@ https://www.youtube.com/watch?v=SHk5IIOBRdA&ab_channel=AdvancedRoboticsandAutoma
 H-D. Bui, S. T. Nguyen, U-H. Billah, C. Le, A. Tavakkoli, H. M. La. Control Framework for a Hybrid-steel Bridge Inspection Robot. In Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Las Vegas, Nevada, USA, October 25 – 29, 2020. [PDF](https://ara.cse.unr.edu/wp-content/uploads/2014/12/IROS2020-Bui-et-al.pdf) 
 
 ## Contact:
+- [Hoang-Dung Bui](https://github.com/buivn)
+- [Son Nguyen](thanhson@nevada.unr.edu)
 - [Chuong Le](cle@nevada.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
